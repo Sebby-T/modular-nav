@@ -21,6 +21,11 @@ body {
   margin: 0;
 }
 
+.blue {
+  color: #fff;
+  background-color: #0074d9;
+}
+
 .masthead {
   text-align: center;
   background-color: #e2e2e2;
@@ -46,6 +51,23 @@ body {
   background-color: #0074d9;
 }
 
+.current {
+  color: #fff;
+  background-color: #0074d9;
+}
+
 a {
   color: #0074d9;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .masthead {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
